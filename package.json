@@ -1,0 +1,29 @@
+{
+  "name": "replace-hash-in-file-webpack-plugin",
+  "version": "1.0.7",
+  "description": "A webpack plugin to replace hash in file(s) after building",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jamieconnor/replace-hash-in-file-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "replace",
+    "hash",
+    "file"
+  ],
+  "author": {
+    "name": "Jamie Connor",
+    "email": "jamie@jamieconnor.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamieconnor/replace-hash-in-file-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/jamieconnor/replace-hash-in-file-webpack-plugin#readme"
+}
