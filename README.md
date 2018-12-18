@@ -2,7 +2,7 @@
 
 This is a [webpack](http://webpack.github.io/) plugin that can replace content in file(s) after compilation is done. This is useful when you want to replace content in any kind of files(html, css, js etc) which are not processed by loaders.
 
-Use `[hash`] to insert the compilation hash into the string.
+Use \[hash] to insert the compilation hash into the search and replace when it is a string or a method returning a string i.e. not a regex.
 
 This is heavily based off [replace-in-file-webpack-plugin](https://github.com/oyslin/replace-in-file-webpack-plugin)
 
@@ -72,8 +72,8 @@ You can pass an array of configuration options to `ReplaceHashInFileWebpackPlugi
 - `files`: Optional. Files in `dir` to find for replacement.
 - `test`: Optional. Regex expression or Regex expressions array to match files in `dir`.
 - `rules`: Required. Replace content rules array. Each rule has `search` and `replace` properties.
-- `search`: Required. String or Regex expression used for searching content in files - use `[hash`] to replace hash.
-- `replace`: Required. String or funcion used for replacing the searching content - use `[hash`] to replace hash.
+- `search`: Required. String or Regex expression used for searching content in files - use \[hash] to replace hash in string.
+- `replace`: Required. String or funcion used for replacing the searching content - use \[hash] to replace hash in string.
 
 # License
 
